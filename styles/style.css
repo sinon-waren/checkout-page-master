@@ -32,3 +32,21 @@ ul {
     display: flex;
     gap: 31px;
 }
+
+.info-contact input, .ship-address input {
+    width: 466px;
+    height: 56px;
+    margin-bottom: 13px;
+    border-radius: 12px;
+}
+
+.flex-label input {
+    width: 217px;
+}
+
+.btn-continue {
+    width: 166px;
+    height: 54px;
+    border-radius: 12px;
+
+}
