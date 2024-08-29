@@ -12,6 +12,11 @@ h1 {
     margin-bottom: 51px;
 }
 
+.hero {
+    display: flex;
+    gap: 113px;
+}
+
 h5 {
     margin-bottom: 15px;
 }
@@ -48,5 +53,25 @@ ul {
     width: 166px;
     height: 54px;
     border-radius: 12px;
+}
 
+.card-items {
+    background-color: #F2F2F2;
+    width: 383px;
+    height: 535px;
+}
+
+.container-images-block-info img {
+    width: 124px;
+    border-radius: 20px;
+}
+
+.container-images-block-info {
+    margin-left: 30px;
+    margin-top: 34px;
+}
+
+.container-images-block-info li {
+    
+    margin-bottom: 20px;
 }
