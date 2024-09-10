@@ -6,10 +6,12 @@
 body {
     margin-left: 240px;
     margin-top: 68px;
+    font-family: "Montserrat", sans-serif;
 }
 
 h1 {
     margin-bottom: 51px;
+    font-size: 36px;
 }
 
 .hero {
@@ -19,6 +21,11 @@ h1 {
 
 h5 {
     margin-bottom: 15px;
+    font-size: 18px;
+}
+
+label {
+    font-size: 12px;
 }
 
 ul {
@@ -49,6 +56,10 @@ ul {
     width: 217px;
 }
 
+.checkbox-style {
+    width: 21px;
+}
+
 .btn-continue {
     width: 166px;
     height: 54px;
@@ -70,6 +81,7 @@ ul {
     margin-left: 29px;
     margin-right: 29px;
     width: 325px;
+    font-weight: bold;
  }
 
  .shipping {
@@ -81,7 +93,7 @@ ul {
  }
 
  .shipping span, .total span {
-    margin-left: 230px;
+    margin-left: 210px;
  }
 
 .container-images-block-info img {
