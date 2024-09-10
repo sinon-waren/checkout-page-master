@@ -53,13 +53,36 @@ ul {
     width: 166px;
     height: 54px;
     border-radius: 12px;
+    margin-left: 276px;
+    color: white;
+    background-color: #F2994A;
+    border: none;
 }
 
 .card-items {
     background-color: #F2F2F2;
     width: 383px;
     height: 535px;
+    border-radius: 12px;
 }
+
+ .shipping, .total {
+    margin-left: 29px;
+    margin-right: 29px;
+    width: 325px;
+ }
+
+ .shipping {
+    height: 41px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: #828282 solid 1px;
+    border-top: #828282 solid 1px;
+ }
+
+ .shipping span, .total span {
+    margin-left: 230px;
+ }
 
 .container-images-block-info img {
     width: 124px;
@@ -69,9 +92,47 @@ ul {
 .container-images-block-info {
     margin-left: 30px;
     margin-top: 34px;
+    margin-bottom: 100px;
 }
 
 .container-images-block-info li {
-    
+    display: flex;
     margin-bottom: 20px;
+}
+.container-images-block-info h5 {
+    margin-bottom: 6px;
+}
+
+.container-description-items {
+    margin-left: 21px;
+}
+
+.price-items{
+    margin-bottom: 40px;
+    color: #F2994A;
+}
+
+.price-items span {
+    margin-left: 8px;
+    color: black;
+    text-decoration: line-through;
+}
+
+.container-compter {
+    display: flex;
+    width: 134px;
+    border: #828282 solid 1px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.container-compter button {
+    width: 22px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 12px;
+}
+
+.container-compter p {
+    margin-top: 12px;
 }
