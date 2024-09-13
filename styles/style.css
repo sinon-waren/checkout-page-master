@@ -36,6 +36,16 @@ ul {
     margin-bottom: 58px;
 }
 
+.ship-address ul li, .info-contact ul li {
+    position: relative;
+}
+
+.ship-address ul li img, .info-contact ul li img {
+    position: absolute;
+    left: 10px;
+    top: 40px;
+}
+
 .flex-label {
     margin-bottom: 22px;
 }
@@ -50,6 +60,7 @@ ul {
     height: 56px;
     margin-bottom: 13px;
     border-radius: 12px;
+    padding-left: 40px;
 }
 
 .flex-label input {
