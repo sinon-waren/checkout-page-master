@@ -161,4 +161,112 @@ ul {
     margin-top: 12px;
 }
 
+@media (max-width: 400px) {
 
+    body {
+        margin: auto;
+        margin-left: 10px;
+        margin-top: 30px;
+    }
+
+    h5 {
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .info-contact input, .ship-address input {
+        width: 250px;
+        height: 40px;
+        margin-bottom: 13px;
+        border-radius: 12px;
+        padding-left: 40px;
+        border: #828282 1px solid;
+    }
+
+    .flex-label ul {
+        display: block;
+    }
+
+    .btn-continue {
+        width: 100px;
+        height: 40px;
+        border-radius: 12px;
+        margin-left: 250px;
+        color: white;
+        background-color: #F2994A;
+        border: none;
+    }
+
+    .checkbox-style {
+        width: 15px;
+    }
+
+    .card-items {
+        background-color: #F2F2F2;
+        width: 350px;
+        height: 535px;
+        border-radius: 12px;
+    }
+
+    .ship-address ul li img, .info-contact ul li img {
+        position: absolute;
+        left: 10px;
+        top: 30px;
+        width: 15px;
+    }
+
+    .shipping, .total {
+        position: relative;
+        margin-left: 29px;
+        margin-right: 29px;
+        width: 300px;
+        font-weight: bold;
+     }
+
+     .shipping {
+        height: 30px;
+        margin-bottom: 15px;
+     }
+    
+     .shipping span, .total span {
+        position: absolute;
+        margin-left: 190px;
+        padding-bottom: 25px;
+     }
+
+     .price-items{
+        margin-bottom: 20px;
+        color: #F2994A;
+    }
+
+     .container-images-block-info img {
+        width: 100px;
+        height: 100px;
+        border-radius: 20px;
+    }
+
+    .container-compter {
+        display: flex;
+        width: 112px;
+        border: #828282 solid 1px;
+        justify-content: space-between;
+        border-radius: 12px;
+    }
+
+    .container-compter button {
+        width: 18px;
+        border-radius: 4px;
+        text-align: center;
+        margin: 12px;
+    }
+
+
+
+
+
+}
